@@ -1,7 +1,7 @@
 import client from '../../client'
 import { XBetFootballMatch } from './typings/match'
 
-async function getLiveMatch(id: string | number): Promise<XBetFootballMatch | null> {
+async function getLive(id: string | number): Promise<XBetFootballMatch | null> {
   const { data } = await client.get(`/football/live/${id}`)
   return data
 }
@@ -36,10 +36,10 @@ async function getInfo(): Promise<{
 }
 
 export default {
-  getLiveMatch,
+  getLive,
   getLiveAll,
-  getMatch,
   getPreMatch,
   getPreMatchAll,
+  getMatch,
   getInfo,
 }

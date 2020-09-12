@@ -1,6 +1,6 @@
 {
   "name": "@betting-api/1xbet",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "",
   "main": "./index",
   "scripts": {
@@ -20,5 +20,9 @@
   "devDependencies": {
     "@zvs001/module-kit": "^0.0.1"
   },
-  "gitHead": "d5dc20af2712b65e6536ecfc4d409f7aaa0367c8"
+  "gitHead": "7a5d926fa41a405200843261205e2e53b8c60152",
+  "homepage": "https://github.com/BettingApi/js-rest-client/tree/master/packages/1xbet#README",
+  "repository": {
+    "url": "https://github.com/BettingApi/js-rest-client/tree/master/packages/1xbet#README"
+  }
 }

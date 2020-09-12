@@ -6,3 +6,38 @@
 or
 
 `npm i @betting-api/1xbet -S`
+
+
+Then you can import it like:
+
+```typescript
+import xBet from '@betting-api/1xbet'
+// or
+const xBet = require('@betting-api/1xbet').default
+```
+
+
+### Authorization
+
+To start using api, you need to create app at 
+https://betting-api.com/console
+
+Then:
+
+```typescript
+xBet.registerApp({
+    secret_key: 'XXXXXXXXX',
+})
+```
+
+
+### Methods
+
+```typescript
+const liveList = await xBet.football.getLiveAll()
+const liveSingleMatch = await xBet.football.getLive(255860098)
+const prematchList = await xBet.football.getPreMatchAll()
+const prematchSingle = await xBet.football.getPreMatch(255860098)
+const anyMatchSingle = await xBet.football.getMatch(255860098)
+const serverInfo = await xBet.football.getInfo()
+```

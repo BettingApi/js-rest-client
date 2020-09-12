@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@betting-api/1xbet": "^0.0.1",
+    "@zvs001/module-kit": "^0.0.1",
     "lerna": "^3.22.1"
   },
   "devDependencies": {
