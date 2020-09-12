@@ -1,5 +1,5 @@
 {
-  "name": "@betting-api/1xbet",
+  "name": "@betting-api/betway",
   "version": "0.0.1",
   "description": "",
   "main": "./index",
@@ -18,8 +18,8 @@
     "@zvs001/module-kit": "^0.0.1"
   },
   "gitHead": "7a5d926fa41a405200843261205e2e53b8c60152",
-  "homepage": "https://github.com/BettingApi/js-rest-client/tree/master/packages/1xbet#readme",
+  "homepage": "https://github.com/BettingApi/js-rest-client/tree/master/packages/betway#readme",
   "repository": {
-    "url": "https://github.com/BettingApi/js-rest-client/tree/master/packages/1xbet#readme"
+    "url": "https://github.com/BettingApi/js-rest-client/tree/master/packages/betway#readme"
   }
 }

@@ -41,3 +41,11 @@ const prematchSingle = await xBet.football.getPreMatch(255860098)
 const anyMatchSingle = await xBet.football.getMatch(255860098)
 const serverInfo = await xBet.football.getInfo()
 ```
+
+
+### Typescript
+
+Project have typescript support and you may find useful to use it.
+
+Types:
+- `XBetFootballMatch` - full match info
