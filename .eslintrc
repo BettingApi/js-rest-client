@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "env": {
+    "mocha": true
+  },
+  "extends": [
+    "@reaction-eslint/server"
+  ],
+  "rules": {
+    "global-require": "off",
+    "no-console": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/ban-ts-ignore": "off"
+  }
+}

@@ -1,0 +1,11 @@
+### Commit specific idea files
+.idea/*
+!.idea/inspectionProfiles
+.idea/inspectionProfiles/*
+!.idea/inspectionProfiles/Project_Default.xml
+
+node_modules
+package-lock.json
+yarn.lock
+lerna-debug.log
+yarn-error.log

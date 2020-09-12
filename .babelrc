@@ -1,0 +1,28 @@
+{
+  "sourceRoot": ".",
+  "presets": [
+    ["@babel/preset-env", {
+      "debug": false
+    }],
+    "@babel/preset-typescript"
+  ],
+  "sourceMaps": "both",
+  "retainLines": true,
+  "plugins": [
+    ["module-resolver", {
+       "extensions": [".ts", ".js"]
+    }],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-transform-typescript",
+    "@babel/transform-arrow-functions",
+    "@babel/plugin-transform-runtime",
+    ["@babel/plugin-proposal-class-properties", { "loose" : false }],
+    "transform-function-bind",
+    ["babel-plugin-inline-import", {
+      "extensions": [
+        ".html"
+      ]
+    }],
+    "@babel/plugin-proposal-optional-chaining"
+  ]
+}

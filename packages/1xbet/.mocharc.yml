@@ -1,0 +1,4 @@
+#require: '../registerBabel.ts'
+exit: true
+growl: true
+timeout: 0

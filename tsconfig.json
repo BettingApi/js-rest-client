@@ -1,0 +1,9 @@
+{
+  "extends": "@zvs001/module-kit/tsconfig",
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "lib": ["dom"]
+  }
+}

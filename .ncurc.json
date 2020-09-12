@@ -1,0 +1,8 @@
+{
+  "reject": [
+    "eslint",
+    "prettier",
+    "typescript",
+    "ts-node"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "registry": "http://52.14.235.115:4873",
+      "push": false
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": false
+}

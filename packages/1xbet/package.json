@@ -1,0 +1,24 @@
+{
+  "name": "@betting-api/1xbet",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index",
+  "scripts": {
+    "prepack": "npx tsc --noEmit false",
+    "postpublish": "npm run clean",
+    "clean": "npx module-kit-clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.20",
+    "warning": "^4.0.3"
+  },
+  "devDependencies": {
+    "@zvs001/module-kit": "^0.0.1"
+  },
+  "gitHead": "d5dc20af2712b65e6536ecfc4d409f7aaa0367c8"
+}
