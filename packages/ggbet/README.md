@@ -1,3 +1,7 @@
+GGBet bookmaker odds api. 
+
+Api rest client for [betting-api.com](https://betting-api.com)
+
 
 ### Installation
 

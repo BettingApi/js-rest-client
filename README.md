@@ -13,3 +13,10 @@ This repo contains js rest clients for https://betting-api.com
 - [GGBet](https://github.com/BettingApi/js-rest-client/tree/master/packages/ggbet#readme)
 - [Fonbet](https://github.com/BettingApi/js-rest-client/tree/master/packages/fonbet#readme)
 - [LeonBets](https://github.com/BettingApi/js-rest-client/tree/master/packages/leonbets#readme)
+
+
+### Issues
+
+Feel free to create issue if you have some feature update 
+or something relevant to
+[betting-api](https://betting-api.com)
