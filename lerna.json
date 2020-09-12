@@ -5,7 +5,6 @@
   ],
   "command": {
     "publish": {
-      "registry": "http://52.14.235.115:4873",
       "push": false
     }
   },

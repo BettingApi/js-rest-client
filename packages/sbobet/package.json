@@ -1,0 +1,25 @@
+{
+  "name": "@betting-api/sbobet",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index",
+  "scripts": {
+    "prepack": "npx tsc --noEmit false",
+    "postpublish": "npm run clean",
+    "clean": "npx module-kit-clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "@zvs001/module-kit": "^0.0.1"
+  },
+  "gitHead": "7a5d926fa41a405200843261205e2e53b8c60152",
+  "homepage": "https://github.com/BettingApi/js-rest-client/tree/master/packages/sbobet#readme",
+  "repository": {
+    "url": "https://github.com/BettingApi/js-rest-client/tree/master/packages/sbobet#readme"
+  }
+}
