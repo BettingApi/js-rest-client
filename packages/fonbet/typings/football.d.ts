@@ -1,4 +1,5 @@
 import { Bet, HandicapBet, TotalBet } from './bets'
+import { BetsMeta } from './meta'
 import { SportEvent } from './sports'
 
 export interface FonbetFootballMatch extends SportEvent, MatchMisk, MatchLeagueInfo, BetsMeta {
@@ -24,6 +25,9 @@ export interface MatchLeagueInfo {
     league: string
     href: string
     isCyber: boolean
+    league_id: number
+    country_id?: number
+    isSpecial: boolean
 }
 
 export interface MatchMarkets extends MarketsMain, MarketsTotals, MarketsScores, MarketsHandicaps {

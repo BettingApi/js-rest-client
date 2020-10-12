@@ -40,8 +40,14 @@ xBet.registerApp({
 ```typescript
 const liveList = await xBet.football.getLiveAll()
 const liveSingleMatch = await xBet.football.getLive(255860098)
+const liveLeagues = await xBet.football.getLiveLeagues()
+const liveLeagueMatches = await xBet.football.getLiveLeagueMatches(91)
+
 const prematchList = await xBet.football.getPreMatchAll()
 const prematchSingle = await xBet.football.getPreMatch(255860098)
+const prematchLeagues = await xBet.football.getPreMatchLeagues()
+const prematchLeagueMatches = await xBet.football.getPreMatchLeagueMatches(91)
+
 const anyMatchSingle = await xBet.football.getMatch(255860098)
 const serverInfo = await xBet.football.getInfo()
 ```

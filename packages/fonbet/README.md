@@ -40,8 +40,14 @@ fonbet.registerApp({
 ```typescript
 const liveList = await fonbet.football.getLiveAll()
 const liveSingleMatch = await fonbet.football.getLive(255860098)
+const liveLeagues = await fonbet.football.getLiveLeagues()
+const liveLeagueMatches = await fonbet.football.getLiveLeagueMatches(91)
+
 const prematchList = await fonbet.football.getPreMatchAll()
 const prematchSingle = await fonbet.football.getPreMatch(255860098)
+const prematchLeagues = await fonbet.football.getPreMatchLeagues()
+const prematchLeagueMatches = await fonbet.football.getPreMatchLeagueMatches(91)
+
 const anyMatchSingle = await fonbet.football.getMatch(255860098)
 const serverInfo = await fonbet.football.getInfo()
 ```

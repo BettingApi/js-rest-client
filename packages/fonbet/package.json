@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "invariant": "^2.2.4"
   },
   "devDependencies": {
     "@zvs001/module-kit": "^0.0.1"
