@@ -14,6 +14,7 @@ export interface LeonBetsFootballMatch extends MatchMarkets, LiveStatus, BetsMet
     betline: 'inplay' | 'prematch'
     country: string
     league: string
+    league_id: number
 }
 
 export interface MatchMarkets {

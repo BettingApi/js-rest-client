@@ -40,8 +40,14 @@ sbobet.registerApp({
 ```typescript
 const liveList = await sbobet.football.getLiveAll()
 const liveSingleMatch = await sbobet.football.getLive(255860098)
+const liveLeagues = await sbobet.football.getLiveLeagues()
+const liveLeagueMatches = await sbobet.football.getLiveLeagueMatches(91)
+
 const prematchList = await sbobet.football.getPreMatchAll()
 const prematchSingle = await sbobet.football.getPreMatch(255860098)
+const prematchLeagues = await sbobet.football.getPreMatchLeagues()
+const prematchLeagueMatches = await sbobet.football.getPreMatchLeagueMatches(91)
+ 
 const anyMatchSingle = await sbobet.football.getMatch(255860098)
 const serverInfo = await sbobet.football.getInfo()
 ```

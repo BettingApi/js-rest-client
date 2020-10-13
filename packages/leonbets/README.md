@@ -40,8 +40,14 @@ leonBets.registerApp({
 ```typescript
 const liveList = await leonBets.football.getLiveAll()
 const liveSingleMatch = await leonBets.football.getLive(255860098)
+const liveLeagues = await leonBets.football.getLiveLeagues()
+const liveLeagueMatches = await leonBets.football.getLiveLeagueMatches(91)
+
 const prematchList = await leonBets.football.getPreMatchAll()
 const prematchSingle = await leonBets.football.getPreMatch(255860098)
+const prematchLeagues = await leonBets.football.getPreMatchLeagues()
+const prematchLeagueMatches = await leonBets.football.getPreMatchLeagueMatches(91)
+
 const anyMatchSingle = await leonBets.football.getMatch(255860098)
 const serverInfo = await leonBets.football.getInfo()
 ```
