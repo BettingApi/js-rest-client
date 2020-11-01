@@ -40,8 +40,16 @@ marathonbet.registerApp({
 ```typescript
 const liveList = await marathonbet.football.getLiveAll()
 const liveSingleMatch = await marathonbet.football.getLive(255860098)
+const liveLeagues = await marathonbet.football.getLiveLeagues()
+const liveLeagueMatches = await marathonbet.football.getLiveLeagueMatches('league_id')
+
+// todo prematch temporary not supported
 const prematchList = await marathonbet.football.getPreMatchAll()
 const prematchSingle = await marathonbet.football.getPreMatch(255860098)
+const prematchLeagues = await marathonbet.football.getPreMatchLeagues()
+const prematchLeagueMatches = await marathonbet.football.getPreMatchLeagueMatches('league_id')
+
+
 const anyMatchSingle = await marathonbet.football.getMatch(255860098)
 const serverInfo = await marathonbet.football.getInfo()
 ```
@@ -54,3 +62,4 @@ Project have typescript support and you may find useful to use it.
 
 Types:
 - `MarathonBetFootballMatch` - full match info
+- `MarathonBetFootballLeague` - league info
