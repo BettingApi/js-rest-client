@@ -41,8 +41,14 @@ pariMatch.registerApp({
 ```typescript
 const liveList = await pariMatch.football.getLiveAll()
 const liveSingleMatch = await pariMatch.football.getLive(255860098)
+const liveLeagues = await pariMatch.football.getLiveLeagues()
+const liveLeagueMatches = await pariMatch.football.getLiveLeagueMatches('league_id')
+
 const prematchList = await pariMatch.football.getPreMatchAll()
 const prematchSingle = await pariMatch.football.getPreMatch(255860098)
+const prematchLeagues = await pariMatch.football.getPreMatchLeagues()
+const prematchLeagueMatches = await pariMatch.football.getPreMatchLeagueMatches('league_id')
+
 const anyMatchSingle = await pariMatch.football.getMatch(255860098)
 const serverInfo = await pariMatch.football.getInfo()
 ```
@@ -55,3 +61,4 @@ Project have typescript support and you may find useful to use it.
 
 Types:
 - `PariMatchFootballMatch` - full match info
+- `PariMatchFootballLeague` - league info
