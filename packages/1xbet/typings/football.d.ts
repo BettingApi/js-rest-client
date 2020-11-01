@@ -20,6 +20,8 @@ export interface XBetMatchInfo {
     score1: number
     score2: number
     isLive: boolean
+    isComposite: boolean
+    isSpecial: boolean
 }
 
 export interface BetsMeta {
@@ -39,8 +41,15 @@ export interface XBetLeague {
     sport_id: number
     name: string
     name_rus: string
+    order_index: number
     isCyber: boolean
     isSimulated: boolean
+    isSpecial: boolean
+    special?: {
+        isGroupStageStats: boolean
+        isDailySpecials: boolean
+        isSpecialBets: boolean
+    }
 }
 
 export interface MarketsMain {
