@@ -40,8 +40,14 @@ betWay.registerApp({
 ```typescript
 const liveList = await betWay.football.getLiveAll()
 const liveSingleMatch = await betWay.football.getLive(255860098)
+const liveLeagues = await betWay.football.getLiveLeagues()
+const liveLeagueMatches = await betWay.football.getLiveLeagueMatches('league_id')
+
 const prematchList = await betWay.football.getPreMatchAll()
 const prematchSingle = await betWay.football.getPreMatch(255860098)
+const prematchLeagues = await betWay.football.getPreMatchLeagues()
+const prematchLeagueMatches = await betWay.football.getPreMatchLeagueMatches('league_id')
+
 const anyMatchSingle = await betWay.football.getMatch(255860098)
 const serverInfo = await betWay.football.getInfo()
 ```
@@ -54,3 +60,4 @@ Project have typescript support and you may find useful to use it.
 
 Types:
 - `BetWayFootballMatch` - full match info
+- `BetWayFootballLeague` - league info

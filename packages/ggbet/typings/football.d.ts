@@ -20,7 +20,11 @@ export interface GGBetFootballMatchInfo {
     team1: string
     team2_id: string
     team2: string
-    league: string
+    tournament: {
+        league_id: string
+        league: string
+        country_code: string
+    }
 }
 
 export interface MatchMarkets extends MarketsMain, MarketsTotals, MarketsHandicaps, MarketsScore {

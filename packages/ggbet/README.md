@@ -40,8 +40,14 @@ ggBet.registerApp({
 ```typescript
 const liveList = await ggBet.football.getLiveAll()
 const liveSingleMatch = await ggBet.football.getLive(255860098)
+const liveLeagues = await ggBet.football.getLiveLeagues()
+const liveLeagueMatches = await ggBet.football.getLiveLeagueMatches('league_id')
+
 const prematchList = await ggBet.football.getPreMatchAll()
 const prematchSingle = await ggBet.football.getPreMatch(255860098)
+const prematchLeagues = await ggBet.football.getPreMatchLeagues()
+const prematchLeagueMatches = await ggBet.football.getPreMatchLeagueMatches('league_id')
+
 const anyMatchSingle = await ggBet.football.getMatch(255860098)
 const serverInfo = await ggBet.football.getInfo()
 ```
@@ -54,3 +60,4 @@ Project have typescript support and you may find useful to use it.
 
 Types:
 - `GGBetFootballMatch` - full match info
+- `GGBetFootballLeague` - league info
