@@ -5,8 +5,8 @@ import packageJson from './package.json'
 const client = axios.create({
   timeout: 60000,
   headers: {
-    CLIENT_TYPE: 'js',
-    CLIENT_VERSION: packageJson.version,
+    'client-type': 'js',
+    'client-version': packageJson.version,
   },
   baseURL: 'https://api.betting-api.com/parimatch',
 })
