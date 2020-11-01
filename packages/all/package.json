@@ -1,0 +1,32 @@
+{
+  "name": "@betting-api/all",
+  "version": "0.0.2",
+  "description": "",
+  "main": "./index",
+  "scripts": {
+    "prepack": "npx tsc --noEmit false",
+    "postpublish": "npm run clean",
+    "clean": "npx module-kit-clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@betting-api/1xbet": "^0.0.2",
+    "@betting-api/betway": "^0.0.2",
+    "@betting-api/fonbet": "^0.0.2",
+    "@betting-api/ggbet": "^0.0.2",
+    "@betting-api/leonbets": "^0.0.2",
+    "@betting-api/marathonbet": "^0.0.2",
+    "@betting-api/parimatch": "^0.0.2",
+    "@betting-api/sbobet": "^0.0.2"
+  },
+  "devDependencies": {
+    "@zvs001/module-kit": "^0.0.1"
+  },
+  "gitHead": "7a5d926fa41a405200843261205e2e53b8c60152",
+  "homepage": "https://github.com/BettingApi/js-rest-client/tree/master/packages/all#readme",
+  "repository": {
+    "url": "https://github.com/BettingApi/js-rest-client/tree/master/packages/all#readme"
+  }
+}
