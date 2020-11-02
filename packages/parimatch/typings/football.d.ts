@@ -2,14 +2,18 @@ import { PariMatchBet, PariMatchHandicapBet, PariMatchTotalBet } from './bets'
 
 export interface PariMatchFootballMatch extends
     FootballTournamentInfo,
-    Omit<FootballBetMain, 'total' | 'total1' | 'total2' | 'handicap1' | 'handicap2'>,
     FootballEventInfo,
-    FootballOtherMarkets,
     BetsMeta {
     version: number
-    half: null | FootballMatchBetHalf
     id: string
+    markets: PariMatchFootballMatchMarkets
     href: string
+}
+
+export interface PariMatchFootballMatchMarkets extends
+    Omit<FootballBetMain, 'total' | 'total1' | 'total2' | 'handicap1' | 'handicap2'>,
+    FootballOtherMarkets {
+    half: null | FootballMatchBetHalf
 }
 
 interface FootballMatchBetHalf {
@@ -29,7 +33,7 @@ export interface FootballTournamentInfo {
     isSimulation?: boolean
     isStats?: boolean
     gender: 'man' | 'women'
-    country: string
+    region: string
     league: string
 }
 
@@ -54,6 +58,7 @@ export interface FootballEventInfo {
     date_start?: string
     team1: string
     team2: string
+    isComposed?: boolean
     score1: number
     score2: number
     minute: number
@@ -90,7 +95,7 @@ export interface NextGoalBet {
     num: number
     team1: PariMatchBet
     team2: PariMatchBet
-    no: PariMatchBet
+    no?: PariMatchBet
 }
 
 export interface BetsMeta {
