@@ -73,11 +73,10 @@ export default {
   getLiveLeagues,
   getLiveLeagueMatches,
 
-  // prematch is not supported for now
-  // getPreMatch,
-  // getPreMatchAll,
-  // getPreMatchLeagues,
-  // getPreMatchLeagueMatches,
+  getPreMatch,
+  getPreMatchAll,
+  getPreMatchLeagues,
+  getPreMatchLeagueMatches,
 
   getMatch,
   getInfo,

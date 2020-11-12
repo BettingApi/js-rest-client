@@ -43,12 +43,10 @@ const liveSingleMatch = await marathonbet.football.getLive(255860098)
 const liveLeagues = await marathonbet.football.getLiveLeagues()
 const liveLeagueMatches = await marathonbet.football.getLiveLeagueMatches('league_id')
 
-// todo prematch temporary not supported
 const prematchList = await marathonbet.football.getPreMatchAll()
 const prematchSingle = await marathonbet.football.getPreMatch(255860098)
 const prematchLeagues = await marathonbet.football.getPreMatchLeagues()
 const prematchLeagueMatches = await marathonbet.football.getPreMatchLeagueMatches('league_id')
-
 
 const anyMatchSingle = await marathonbet.football.getMatch(255860098)
 const serverInfo = await marathonbet.football.getInfo()
