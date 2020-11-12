@@ -1,6 +1,6 @@
 {
   "name": "@betting-api/all",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "main": "./index",
   "scripts": {
@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@betting-api/1xbet": "^0.0.2",
-    "@betting-api/betway": "^0.0.2",
-    "@betting-api/fonbet": "^0.0.2",
-    "@betting-api/ggbet": "^0.0.2",
-    "@betting-api/leonbets": "^0.0.2",
-    "@betting-api/marathonbet": "^0.0.2",
-    "@betting-api/parimatch": "^0.0.2",
-    "@betting-api/sbobet": "^0.0.2"
+    "@betting-api/1xbet": "^0.1.0",
+    "@betting-api/betway": "^0.1.0",
+    "@betting-api/fonbet": "^0.1.0",
+    "@betting-api/ggbet": "^0.1.0",
+    "@betting-api/leonbets": "^0.1.0",
+    "@betting-api/marathonbet": "^0.1.0",
+    "@betting-api/parimatch": "^0.1.0",
+    "@betting-api/sbobet": "^0.1.0"
   },
   "devDependencies": {
     "@zvs001/module-kit": "^0.0.1"
