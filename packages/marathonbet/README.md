@@ -2,6 +2,7 @@ MarathonBet bookmaker odds api.
 
 Api rest client for [betting-api.com](https://betting-api.com)
 
+[![npm](https://img.shields.io/npm/v/@betting-api/marathonbet)](https://www.npmjs.com/package/@betting-api/marathonbet)
 
 ### Installation
 

@@ -2,6 +2,7 @@ Fonbet bookmaker odds api.
 
 Api rest client for [betting-api.com](https://betting-api.com)
 
+[![npm](https://img.shields.io/npm/v/@betting-api/fonbet)](https://www.npmjs.com/package/@betting-api/fonbet)
 
 ### Installation
 

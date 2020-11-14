@@ -2,6 +2,8 @@ GGBet bookmaker odds api.
 
 Api rest client for [betting-api.com](https://betting-api.com)
 
+[![npm](https://img.shields.io/npm/v/@betting-api/ggbet)](https://www.npmjs.com/package/@betting-api/ggbet)
+
 
 ### Installation
 

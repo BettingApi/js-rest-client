@@ -2,6 +2,7 @@ Multiple bookmakers odds api.
 
 Api rest client for [betting-api.com](https://betting-api.com)
 
+[![npm](https://img.shields.io/npm/v/@betting-api/all)](https://www.npmjs.com/package/@betting-api/all)
 
 ### Installation
 

@@ -17,7 +17,7 @@
   "devDependencies": {
     "@zvs001/module-kit": "^0.0.1"
   },
-  "gitHead": "7a5d926fa41a405200843261205e2e53b8c60152",
+  "gitHead": "43255a141c0d3a7d92a7e1d68623d5b3df9afe42",
   "homepage": "https://github.com/BettingApi/js-rest-client/tree/master/packages/leonbets#readme",
   "repository": {
     "url": "https://github.com/BettingApi/js-rest-client/tree/master/packages/leonbets#readme"
